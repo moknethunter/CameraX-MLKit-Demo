@@ -50,4 +50,9 @@ dependencies {
     implementation "androidx.camera:camera-view:${camerax_version}"
 
     implementation 'com.google.mlkit:object-detection:17.0.1'
+
+    // Android Navigation component - provides app:navGraph, app:defaultNavHost and navigation XML attributes
+    def nav_version = "2.5.3"
+    implementation "androidx.navigation:navigation-fragment-ktx:${nav_version}"
+    implementation "androidx.navigation:navigation-ui-ktx:${nav_version}"
 }
